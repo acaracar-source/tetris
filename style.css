@@ -29,9 +29,15 @@ h1 {
     background-color: #45a049;
 }
 
-canvas {
+#tetris {
     background-color: #000;
     display: block;
     margin: 0 auto;
     border: 2px solid #333;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
 }
