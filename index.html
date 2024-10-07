@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tetris Game</title>
+    <title>Advanced Tetris Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Tetris Game</h1>
+    
     <div class="menu">
-        <button onclick="startGame()">Start Game</button>
-        <button onclick="resetGame()">Reset Game</button>
+        <button id="startButton">Start Game</button>
+        <button id="resetButton">Reset Game</button>
     </div>
-    <canvas id="tetris-board" width="300" height="600"></canvas>
+
+    <canvas id="tetris" width="300" height="600"></canvas>
+    
+    <div id="score">
+        Score: 0
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
